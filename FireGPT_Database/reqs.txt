@@ -1,0 +1,9 @@
+Flask
+flask-migrate
+flask_sqlalchemy
+Flask-Session
+flask-login
+psycopg2
+toml
+marshmallow
+flask-restx

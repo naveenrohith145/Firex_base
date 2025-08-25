@@ -1,0 +1,11 @@
+curl -X POST -F "file=@C:\Users\z0052pyj\Documents\DemoVNV\Class Diagram.png" -F "query=What is this image about?" http://129.103.149.145:5002/upload_file
+
+curl -X POST -H "Content-Type: application/json" -d "{\"query\": \"What are the features of ZIC-4A.\"}" http://129.103.149.145:5002/chat
+
+curl -X POST -F "file=@C:\Users\z0052pyj\Documents\DemoVNV\sample.xlsx" -F "query=What city is Pete Kriz from?" http://129.103.149.145:5002/upload_file
+
+curl -X POST -F "file=@C:\Users\z0052pyj\Documents\DemoVNV\sample.xlsx" -F "query=What is the profit of CA-2014-106376?" http://129.103.149.145:5002/upload_file
+
+curl -X POST -F "file=@C:\Users\z0052pyj\Documents\DemoVNV\sample.csv" -F "query=What product did Claire Gute buy?" http://129.103.149.145:5002/upload_file
+
+curl -X POST -F "file=@C:\Users\z0052pyj\Documents\DemoVNV\sample.csv" -F "query=Print all order ids?" http://129.103.149.145:5002/upload_file
